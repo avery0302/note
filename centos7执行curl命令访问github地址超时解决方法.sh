@@ -1,0 +1,2 @@
+centos7执行curl命令访问github地址超时解决方法
+使用中间仓

@@ -1,11 +1,12 @@
 前端工程化需要包含的模块
 
-10类+20个文件
+10类+23个文件
 #1.依赖引入+打包
 npm:依赖引入(package.json)
 vite:模块解析、热更新(vite.config.ts)
 #2.简化html
-vue:页面区和变量区的映射，内置命令减少代码行数(index.html | src/App.vue | src/main.ts | src/assets)
+vue:页面区和变量区的映射，内置命令减少代码行数
+(src/main.ts连接后三个文件 | index.html | src/App.vue | src/router/index.ts | src/views/Home.vue | src/assets | public/favicon.ico)
 #3.简化js+ts
 ts:ts编译成js(tsconfig.json | tsconfig.app.json | tsconfig.node.json | tsconfig.vitest.json)
 babel:处理js语法转换，ES6+降为ES6-
